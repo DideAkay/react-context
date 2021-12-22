@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {UserProvider} from './context'
 
 ReactDOM.render(
-  //App becomes a children od UserProvider
+  //App becomes a children of UserProvider
   <UserProvider>
   <App />
   </UserProvider>,
